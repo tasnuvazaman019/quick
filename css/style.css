@@ -1,0 +1,181 @@
+/*Common CSS starts here*/
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+}
+/*Common CSS ends here*/
+/*header start*/
+header{
+	border-bottom: 2px solid #e5e3e3;
+	padding: 15px;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+/*	border: 1px solid black;*/
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	margin-top: 30px;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	padding: 0 25px;
+	color: #0f2656;
+	text-decoration: none;
+	transition: .33s;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 60px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 65%;
+	text-align: center;
+	overflow: hidden;
+}
+.b_h1{	
+	margin: 0;
+    padding: 0 282px;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.b_h1 span{
+	color: #008aff;
+}
+.b_p{
+	margin: 20px 0 30px;
+	padding: 0 206px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.b_img{
+	margin: 0 auto;
+	width: 80%;
+}
+.n_img img{
+	width: 100%;
+}
+/*banner end*/
+/*successfull start*/
+.success{
+	padding: 70px 0;
+}
+.s_left{
+	float: left;
+	width: 48%;
+}
+.s_left_h2{
+	margin: 0;
+	font-size: 60px;
+	color: #f15767;
+    text-align: right;
+}
+.s_left_p{
+    padding: 0 0 0 209px;
+    margin: 8px 0 0 0;
+    text-align: right;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.s_right{
+	float: right;
+	width: 48%;
+}
+.s_right_h1{
+	margin: 0;
+	padding: 0 90px 0px 0px;
+	font-size: 55px;
+    color: #0f2656;
+    text-align: left;
+}
+/*successfull end*/
+/*service start*/
+.service{
+	padding: 70px 0 100px 0;
+/*	border: 1px solid green;*/
+}
+.single_service{
+	margin-right: 2%;
+	padding: 70px 2%;
+	float: left;
+	width: 32%;
+/*	border: 1px solid red;*/
+	box-sizing: border-box;
+}
+.single_service:first-child{
+	background-color: #fdebed;
+}
+.single_service:nth-child(2){
+	background-color: #ebf9f4;
+}
+.single_service:last-child{
+	margin-right: 0;
+	background-color: #fff7e8;
+}
+.ss_img{}
+.ss_img img{
+	width: 100%;
+}
+.ss_img_h2{
+	margin: 15px 0px;
+	font-size: 34px;
+    font-weight: 700;
+}
+.ss_img_p{
+	margin: 0;
+	padding: 0 155px 0 0;
+    line-height: 23px;
+}
+/*service end*/
+/*footer start*/
+footer{
+   padding: 15px 0px;
+   width: 100%;
+   color: white;
+   text-align: center;
+   background-color: #008aff;
+}
+.footer_p{
+	font-weight: 100;
+	color: #f7f7f7;
+/*	color: #008aff;*/
+/*	border: 1px solid pink;*/
+}
+.footer_p a{
+	font-weight: 700;
+	color: white;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+/*footer end*/
